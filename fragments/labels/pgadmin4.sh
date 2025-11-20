@@ -6,7 +6,7 @@ pgadmin4)
     if [[ "$(arch)" == "arm64" ]]; then
         downloadURL="https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v$appNewVersion/macos/pgadmin4-$appNewVersion-arm64.dmg"
     else
-        downloadURL="https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v$appNewVersion/macos/pgadmin4-$appNewVersion-x86_64.dmg"
+        downloadURL="https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v$appNewVersion/macos/pgadmin4-$appNewVersion-x64.dmg"
     fi
     expectedTeamID="TCHGL2R7C5"
     ;;
